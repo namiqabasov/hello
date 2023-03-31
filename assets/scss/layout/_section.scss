@@ -1,0 +1,68 @@
+.containersec {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 1000px;
+  margin-right: 0%;
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+
+    gap: 20px;
+
+    input {
+      width: 90%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url("");
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      .itag {
+        width: 10%;
+        position: relative;
+        left: 60px;
+        border: 0px;
+      }
+      
+    }
+    button {
+      color: white;
+      margin-top: 30px;
+      width: 100px;
+      padding: 10px 20px;
+      border-radius: 45px;
+      border: 1px solid white;
+      background-color: rgba(10, 59, 10, 0.726);
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      i {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  @media screen and (max-width) {
+    
+  }
+
+}
